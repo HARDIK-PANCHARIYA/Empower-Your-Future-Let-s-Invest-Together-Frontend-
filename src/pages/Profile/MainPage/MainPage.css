@@ -1,0 +1,152 @@
+
+.arrow-icon{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.arrow-icon:hover{
+    color: var(--main-color);
+}
+
+.coverImage{
+    height: 200px;
+    width: 100% !important;
+}
+ 
+.coverImageContainer{
+    position: relative;
+}
+
+.hoverCoverImage{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.603);
+    width: 100%;
+    height: 98%;
+    opacity: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverCoverImage:hover{
+    opacity: 100%;
+}
+
+.photoIcon{
+    color: white;
+    font-size: 35px !important;
+    opacity: 40%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.photoIcon:hover{
+    opacity: 100%;
+}
+
+.photoIconDisabled{
+    cursor: not-allowed;
+}
+
+.userInfo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.heading-4{
+    margin-top:-40px;
+    font-size: 19px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.heading-3{
+    margin-left: 20px;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.usernameSection{
+    margin-left: 20px;
+    margin-top: 0px;
+    color: darkgray
+}
+
+.mainProfile{
+    background-color: rgb(207, 206, 206);
+    margin-top: 0;
+    border: 1px solid white;
+}
+
+.profile-bio{
+    height: 100px;
+}
+
+.avatarContainer{
+    margin-top: -80px;
+    margin-left: 20px;
+    border-radius: 100%;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 4px solid white;
+}
+
+.avatar{
+    position: relative;
+    width: 100%;
+    height: 98%;
+    border-radius: 100%;
+    
+}
+
+.hoverAvatarImage{
+    position: absolute;
+    top: 0%;
+    background-color: rgba(0,0,0,0.603);
+    width: 100%;
+    height: 98%;
+    border-radius: 100%;
+    opacity: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverAvatarImage:hover{
+    opacity: 100%;
+}  
+
+.postText{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.infoContainer{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.locationAndLink{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.subInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Link{
+    color: blue;
+    cursor: pointer;
+}
+

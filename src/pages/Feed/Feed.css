@@ -1,0 +1,17 @@
+.feed{
+    overflow-y: scroll;
+    min-width: fit-content;
+    border-right: 1px solid var(--main-background);
+    width: 700px;
+    
+}
+
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 688px) {
+    .feed{
+      display: block;
+    }
+  }

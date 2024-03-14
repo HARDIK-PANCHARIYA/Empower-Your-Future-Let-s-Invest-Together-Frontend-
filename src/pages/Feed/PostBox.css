@@ -1,0 +1,76 @@
+.postBox{
+    padding-bottom: 10px;
+    border-bottom: 3px solid gray;
+    border-top: 1pt black solid;
+    padding-right: 10px;
+    width: 690px;
+    min-width: fit-content;
+}
+
+.postBox>form{
+    display: flex;
+    flex-direction: column;
+}
+
+.postBox_input{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px !important;
+    
+}
+
+.postBox_input>input{
+    /* flex:1; */
+    margin-left: 20px;
+    font-size: 18px;
+    /* border-color: black; */
+    background-color: rgba(179, 180, 175, 0.341);
+    /* border-width: 3px; */
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-family: italic;
+    width: 450px !important;
+    
+
+}
+
+.postBox_imageInput{
+    border: none;
+    padding: 5px 20px;
+}
+
+.imageIcon_postButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px !important;
+}
+
+.postBox_postButton{
+    background-color: var(--main-color) !important;
+    border: none !important;
+    color: black !important;
+    font-weight: 700 !important;
+    text-transform: inherit !important;
+    border-radius: 50px !important;
+    width: 100px;
+    height: 40px !important;
+}
+
+.imageIcon{
+    color: var(--main-color);
+    padding-left: 65px !important;
+    cursor: pointer;
+}
+
+.imageInput{
+    display: none;
+}
+
+@media screen and (max-width: 688px) {
+    .postBox{
+      display: none;
+    }
+  }

@@ -1,8 +1,29 @@
 .App {
-  text-align: center;
+  text-align: auto;
 }
 
-.App-logo {
+body{
+  --main-color:#fc7e3b;
+  --main-background:#d3c0c0;
+}
+
+.app{
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px;
+
+}
+
+@media screen and (max-width: 688px) {
+  .app{
+    display: block;
+  }
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

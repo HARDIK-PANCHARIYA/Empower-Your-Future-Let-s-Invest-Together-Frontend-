@@ -1,0 +1,89 @@
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--main-background);
+    min-width: fit-content;
+    width: 700px;
+}
+
+.post_body{
+    flex: 1;
+    padding: 10px;
+    min-width: fit-content;
+}
+
+.post_header{
+    width: 580px !important;
+}
+
+.post_body>img{
+    border-radius: 20px;
+}
+
+.post_headerDescription{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.post_headerText>h2{
+    /* font-size: 5px; */
+    margin-top: 15px;
+    padding: 0px;
+    margin-top: 0px;
+    font-family:  monospace;
+    min-width: fit-content;
+}
+.name{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.post_badge{
+    font-size: 13px !important;
+    color: var(--main-color);
+}
+
+.post_headerSpecial{
+    font-weight: 600;
+    font-size: 15px;
+    color: gray;
+    margin-top: 0px
+}
+
+.post_avatar{
+    padding: 27px 10px 20px 20px;
+}
+
+.post_footer{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+.post_footer_icon:hover{
+    cursor: pointer;
+    columns: var(--main-color);
+}
+
+.post_footer_icon_FavoriteBorderIcon{
+    margin-right: 15px;
+    cursor: pointer;
+    columns: var(--main-color);
+}
+
+.post_footer_icon_AddCommentIcon{
+    margin-right: 15px;
+    cursor: pointer;
+    columns: var(--main-color);
+}
+
+@media screen and (max-width: 688px) {
+    .post{
+      display: block;      
+    }
+  }
+
+
+
+
