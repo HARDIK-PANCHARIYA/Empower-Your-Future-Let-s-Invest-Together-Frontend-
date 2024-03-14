@@ -1,4 +1,5 @@
-### Empower Your Future: Let's Invest Together" Unleashing Potential with Full-Stack 
+<h2 align="left">Empower Your Future: Let's Invest Together" Unleashing Potential with Full-Stack</h2>
+ 
 
 Welcome to the Empower Your Future: Let's Invest Together - Frontend repository! This repository hosts the frontend component of our comprehensive investment platform, empowering users to make informed financial decisions, manage investments effectively, and engage with a community of like-minded individuals.
 
