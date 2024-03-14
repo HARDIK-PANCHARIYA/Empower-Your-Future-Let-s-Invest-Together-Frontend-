@@ -7,6 +7,12 @@ Welcome to the Empower Your Future: Let's Invest Together - Frontend repository!
 
 Empower Your Future is built with cutting-edge technologies and designed to deliver a seamless and intuitive user experience across various devices. Our frontend is developed in ReactJS and facilitates seamless backend communication with Node.js for backend operations. We utilize Axios for efficient communication between the frontend and backend, ensuring optimal performance and responsiveness.
 
+<div align="left">
+  <a href="https://empoweryourfuture-has.web.app/" target="_blank">
+    <img src="https://img.shields.io/v1?message=Visit%20Our%20Website&color=blue&labelColor=black&style=for-the-badge" height="35" alt="Visit Our Website" />
+  </a>
+</div>
+
 ## Features
 
 - **User Authentication and Security**: Robust authentication mechanisms ensure secure access to the platform, safeguarding user data. Google sign-in is implemented for heightened security.
@@ -23,10 +29,6 @@ Empower Your Future is built with cutting-edge technologies and designed to deli
 
 - **Notification System**: Implements a robust notification system to keep users informed about important updates, market trends, and account activities.
 
-<div align="left">
-  <a href="https://wa.me/+919067181797" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Visit%20Our%20Website&color=blue&labelColor=black&style=for-the-badge" height="35" alt="Visit Our Website" />
-  </a>
-</div>
+
 
 
